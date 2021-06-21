@@ -192,7 +192,7 @@ export default {
     },
   },
   mounted: function() {
-    const websocketURL = process.env.backEndURL + ":" + process.env.backEndPort;
+    const websocketURL = process.env.backEndURL;
     const ioClient = io(websocketURL, {
       transports: ["websocket", "polling"],
     });
