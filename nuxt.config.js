@@ -1,8 +1,8 @@
 export default {
   target: "static",
   env: {
-    backEndURL: process.env.BACK_END_URL || "ws://localhost",
-    backEndPort: process.env.BACK_END_PORT || 3001,
+    backEndURL: process.env.BACK_END_URL,
+    backEndPort: process.env.BACK_END_PORT,
   },
   server: {
     port: process.env.PORT,
