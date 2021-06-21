@@ -191,9 +191,7 @@ export default {
     },
   },
   mounted: function() {
-    const websocketURL =
-      process.env.backEndURL +
-      (process.env.backEndPort ? ":" + process.env.backEndPort : "");
+    const websocketURL = "wss://real-time-finances-back-end.heroku.app";
     const ioClient = io(websocketURL, {
       transports: ["websocket", "polling"],
     });

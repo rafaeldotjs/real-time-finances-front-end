@@ -1,9 +1,5 @@
 export default {
   target: "static",
-  env: {
-    backEndURL: process.env.BACK_END_URL,
-    backEndPort: process.env.BACK_END_PORT,
-  },
   server: {
     port: process.env.PORT,
   },
