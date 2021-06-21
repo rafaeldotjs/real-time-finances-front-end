@@ -1,8 +1,4 @@
-# trading-vue-nuxt
-
-Demo repository to showcase trading-vue-js with Nuxt
-
-To run the repository:
+# Real time financial charts - front end
 
 ```bash
 yarn install
@@ -13,5 +9,3 @@ yarn dev
 npm i
 npm run dev
 ```
-
-Thanks to @Bearfinn for making the initial boilerplate. 
