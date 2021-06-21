@@ -1,7 +1,7 @@
 export default {
   target: "static",
   env: {
-    backEndURL: "wss://real-time-finances-back-end.herokuapp.com",
+    backEndURL: "wss://blablabla.com",
   },
   server: {
     port: process.env.PORT,
