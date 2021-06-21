@@ -1,7 +1,7 @@
 export default {
   target: "static",
   env: {
-    backEndURL: process.env.BACK_END_URL || "http://localhost",
+    backEndURL: process.env.BACK_END_URL /* || "http://localhost"*/,
     backEndPort: process.env.BACK_END_PORT || 3001,
   },
   server: {
@@ -17,14 +17,12 @@ export default {
     link: [
       {
         rel: "stylesheet",
-        href:
-          "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
       },
     ],
     script: [
       {
-        src:
-          "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js",
+        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js",
       },
     ],
   },
