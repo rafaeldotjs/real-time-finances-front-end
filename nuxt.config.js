@@ -2,7 +2,7 @@ export default {
   target: "static",
   env: {
     backEndURL: process.env.BACK_END_URL || "http://localhost",
-    backEndPort: process.env.BACK_END_PORT || 3001,
+    // backEndPort: process.env.BACK_END_PORT || 3001,
   },
   server: {
     port: process.env.PORT,
