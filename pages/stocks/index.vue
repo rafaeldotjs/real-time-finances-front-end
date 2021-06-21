@@ -121,7 +121,6 @@ export default {
   },
   methods: {
     addToChart(data) {
-      console.log(data);
       switch (data.symbol) {
         case "AAPL":
           data.t.forEach((element, index) => {
@@ -203,7 +202,6 @@ export default {
     ioClient.on(
       "update",
       function(data) {
-        console.log("entrou de novo");
         this.addToChart(data);
       }.bind(this)
     );
