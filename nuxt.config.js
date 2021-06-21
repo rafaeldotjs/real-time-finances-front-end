@@ -21,12 +21,6 @@ export default {
           "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
       },
     ],
-    script: [
-      {
-        src:
-          "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js",
-      },
-    ],
   },
   // Using @nuxt/components module to auto-import components
   components: true,
