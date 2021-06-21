@@ -2,6 +2,7 @@
   "name": "trading-vue-nuxt",
   "scripts": {
     "dev": "nuxt",
+    "generate": "nuxt generate",
     "start": "nuxt start"
   },
   "dependencies": {
